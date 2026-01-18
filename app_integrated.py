@@ -612,6 +612,9 @@ elif menu == "📈 Visualisasi 3D":
         'xaxis_title': features[0],
         'yaxis_title': features[1],
         'zaxis_title': features[2],
+        'yaxis': {
+            'range': [300, 320]
+        },
         'camera': {'eye': {'x': 1.5, 'y': 1.5, 'z': 1.3}}
     })
     layout_3d['height'] = 700
