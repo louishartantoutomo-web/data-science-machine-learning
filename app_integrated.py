@@ -417,34 +417,6 @@ st.sidebar.markdown("""
 """)
 
 # ============================
-# DETERMINE ACTIVE MENU
-# ============================
-# Check which section was last clicked
-if 'last_menu' not in st.session_state:
-    st.session_state.last_menu = 'clustering'
-
-# Detect which radio button was clicked
-if clustering_menu and clustering_menu != st.session_state.get('prev_clustering'):
-    st.session_state.last_menu = 'clustering'
-    st.session_state.prev_clustering = clustering_menu
-
-if classification_menu and classification_menu != st.session_state.get('prev_classification'):
-    st.session_state.last_menu = 'classification'
-    st.session_state.prev_classification = classification_menu
-
-if integrated_menu and integrated_menu != st.session_state.get('prev_integrated'):
-    st.session_state.last_menu = 'integrated'
-    st.session_state.prev_integrated = integrated_menu
-
-# Set active menu
-if st.session_state.last_menu == 'clustering':
-    menu = clustering_menu
-elif st.session_state.last_menu == 'classification':
-    menu = classification_menu
-else:
-    menu = integrated_menu
-
-# ============================
 # MENU CLUSTERING: 🏠 OVERVIEW
 # ============================
 if menu == "🏠 Overview":
