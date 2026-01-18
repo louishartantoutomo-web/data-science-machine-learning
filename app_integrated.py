@@ -372,32 +372,23 @@ st.sidebar.markdown("---")
 
 st.sidebar.markdown("### 📊 Menu Navigation")
 
-# Section 1: Clustering Model (Original menus - without prediction)
-st.sidebar.markdown("**🔵 Clustering Model**")
-clustering_menu = st.sidebar.radio(
-    "Clustering Analysis:",
-    ["🏠 Overview", "📈 Visualisasi 3D", "📋 Analisis Cluster"],
-    key="clustering"
-)
+# Single unified menu
+st.sidebar.markdown("### 📊 Menu Navigation")
 
-st.sidebar.markdown("---")
-
-# Section 2: Classification Model (Info only)
-st.sidebar.markdown("**🔴 Classification Model**")
-classification_menu = st.sidebar.radio(
-    "Failure Classification:",
-    ["📊 Failure Info"],
-    key="classification"
-)
-
-st.sidebar.markdown("---")
-
-# Section 3: Integrated Analysis (with combined prediction)
-st.sidebar.markdown("**🔗 Integrated Model**")
-integrated_menu = st.sidebar.radio(
-    "Combined Analysis:",
-    ["🎯 Prediksi Terintegrasi", "🔗 Integrated Dashboard"],
-    key="integrated"
+menu = st.sidebar.radio(
+    "Pilih Menu:",
+    [
+        # Clustering Model
+        "🏠 Overview",
+        "📈 Visualisasi 3D", 
+        "📋 Analisis Cluster",
+        # Classification Model
+        "📊 Failure Info",
+        # Integrated Model
+        "🎯 Prediksi Terintegrasi",
+        "🔗 Integrated Dashboard"
+    ],
+    key="main_menu"
 )
 
 st.sidebar.markdown("---")
