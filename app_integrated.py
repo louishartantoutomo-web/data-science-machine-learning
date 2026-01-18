@@ -35,10 +35,10 @@ st.markdown("""
     }
     
     .main-header {
-        font-size: 4rem;
-        font-weight: bold;
-        text-align: center;
-        padding: 1rem;
+        font-size: 4rem !important;
+        font-weight: bold !important;
+        text-align: center !important;
+        padding: 1rem !important;
         background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
