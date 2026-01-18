@@ -821,7 +821,7 @@ elif menu == "🎯 Prediksi Terintegrasi":
         air_temp = st.number_input(
             "🌡️ Air Temperature (K)",
             min_value=290.0,
-            max_value=310.0,
+            max_value=350.0,
             value=300.0,
             step=0.1,
             help="Suhu udara sekitar dalam Kelvin"
@@ -829,8 +829,8 @@ elif menu == "🎯 Prediksi Terintegrasi":
         
         process_temp = st.number_input(
             "🔥 Process Temperature (K)",
-            min_value=300.0,
-            max_value=320.0,
+            min_value=290.0,
+            max_value=350.0,
             value=310.0,
             step=0.1,
             help="Suhu proses mesin dalam Kelvin"
