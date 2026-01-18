@@ -1430,9 +1430,9 @@ elif menu == "🔗 Integrated Dashboard":
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #b0b0b0; padding: 1rem;">
-    <p><strong>Dashboard Predictive Maintenance v2.5</strong></p>
+    <p><strong>Dashboard Predictive Maintenance v2.0</strong></p>
     <p>Clustering Model + Classification Model + Integrated Analysis</p>
-    <p>Developed by Kelompok 9 (LC41) | BINUS University</p>
-    <p>© 2025 All Rights Reserved</p>
+    <p>Developed by Kelompok 9 - Data Science Machine Learning (LC41) | BINUS University</p>
+    <p>© 2026 All Rights Reserved</p>
 </div>
 """, unsafe_allow_html=True)
