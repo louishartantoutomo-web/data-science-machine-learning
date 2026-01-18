@@ -370,8 +370,6 @@ df = df_cluster.copy()
 st.sidebar.markdown("# ⚙️ Predictive Maintenance")
 st.sidebar.markdown("---")
 
-st.sidebar.markdown("### 📊 Menu Navigation")
-
 # Single unified menu
 st.sidebar.markdown("### 📊 Menu Navigation")
 
