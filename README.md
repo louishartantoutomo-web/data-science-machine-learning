@@ -643,7 +643,8 @@ Jika menemukan bug atau punya saran:
 
 ## 📄 License
 
-© 2024 Kelompok 9 (LC41) - BINUS University
+© 2026 Kelompok 9 (LC41) - Data Science & Machine Learning
+BINUS University
 All Rights Reserved
 
 ---
